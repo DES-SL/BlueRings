@@ -1,4 +1,4 @@
-# RingFinder2
+# BlueRings
 
 An extended re-implementation of Gavazzi et al's RingFinder galaxy-scale strong gravitational lens detection robot. Subtract red light from blue, analyze residuals, classify. Helping find lenses in the DES images since May 2016.
 
