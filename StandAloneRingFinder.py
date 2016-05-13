@@ -78,6 +78,8 @@ class RingFinder():
 
     def psfmatch(self,B,R,sB,sR,pB,pR,mode="crossconvolve"):
         #not sure if this is totally valid, need to check
+        if mode=="dont":
+            return B,R,sB,sR,pR
         if mode=="crossconvolve":
             B=convolve(B,pR,True)[0]
             sB=convolve(sB,pR,True)[0]
