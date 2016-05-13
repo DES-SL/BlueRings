@@ -6,7 +6,7 @@ For an introduction to the basic method, check out the original paper: ["RingFin
 
 ## Demos
 
-An IPython Notebook will appear here shortly!
+* **[Example lens subtraction in one system](https://github.com/DES-SL/RingFinder2/blob/master/Demo.ipynb)**
 
 ## Contact
 
