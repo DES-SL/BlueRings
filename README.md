@@ -16,5 +16,6 @@ People working on this project:
 
 * Tom Collett (Portsmouth, DES SL: [@tcollett](https://github.com/DES-SL/RingFinder2/issues/new?body=@tcollett))
 * James Nightingale (Nottingham, DES SL)
-* Phil Marshall (KIPAC, DES Space Warps [@tcollett](https://github.com/DES-SL/RingFinder2/issues/new?body=@drphilmarshallt)))
+* Phil Marshall (KIPAC, DES Space Warps [@drphilmarshall](https://github.com/DES-SL/RingFinder2/issues/new?body=@drphilmarshallt)))
 
+![](https://upload.wikimedia.org/wikipedia/commons/9/95/Blue-Ringed_Octopus_%2814280614299%29.jpg)
