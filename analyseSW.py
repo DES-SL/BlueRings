@@ -1,7 +1,7 @@
 from StandAloneRingFinder import RingFinder
 import pyfits
 import pylab as plt
-for i in range(50):
+for i in range(1):
   pref=i+1
   ddir="example"#Change to your data directory
   imgg=pyfits.open("%s/clip_%s_g.fits"%(ddir,pref))[0].data.copy()#[a:-a,a:-a]
@@ -24,7 +24,7 @@ for i in range(50):
   colorimage = color.createModel(imgg,imgr,imgi)
   #plt.imshow(colorimage,interpolation="none")
   #plt.show()
-  psfmode="worst"
+  psfmode="crossconvolve"
   RF=RingFinder(imgg,imgi,sigg,sigi,psfg,psfi,0.265,1e12,1e12,visualize=False,psfmode=psfmode)
   RFgz=RingFinder(imgg,imgz,sigg,sigi,psfg,psfz,0.265,1e12,1e12,visualize=False,psfmode=psfmode)
   RFrz=RingFinder(imgr,imgz,sigr,sigz,psfr,psfz,0.265,1e12,1e12,visualize=False,psfmode=psfmode)
